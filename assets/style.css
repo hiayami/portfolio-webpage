@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: none;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGPDyA_5hGSpV1xULSo550nfXulInD2OvvlpHezD-EWk2UtVhPyEcYybIhND_cNPZ0U6c&usqp=CAU) ;
+    /*Ensures this image url as the background for the header. Want it to stretch/scale in size rather than repeating/doubling the picture.*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    flex-shrink: 0;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    font-size: 20px;
+    color:rgb(95, 78, 168)
+}
+
+.pic {
+    height: 200px;
+    margin-right: 16px;
+}
+
+header div ul li::before {
+    content: "\200B";
+    
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color:rgb(25, 15, 70);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Styles for the sections/boxes*/
+
+.Card {
+    border-style: solid;
+    border-color: gray;
+    background-color: white;
+}
+
+.Card > div {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 40px;
+}
+
+section {
+    margin: 40px 40px 0;
+    padding: 20px;
+}
+
+section h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 32px;
+    color: rgb(75, 201, 201);
+    text-align: left;
+}
+
+/*styles for the image button*/
+
+.anchor-1 {
+    background: url(/assets/images/Screen\ Shot\ 2022-03-01\ at\ 4.32.29\ PM.png);
+    width: 100%;
+    /*ensures image/button does not get infinitely bigger as the screen enlarges*/
+    max-width: 750px;
+    height: 369px;
+    /*Applied border radius to both anchor and button so that the image stays within the border*/
+    border-radius: 16px;
+}
+
+.button1 {
+    /*button color transparent so that button hover can show a change when cursor is moved over it*/
+    background-color: transparent;
+    width: inherit;
+    height: inherit;
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    border-radius: 16px;
+    box-shadow: 10px 5px 5px gray;
+    cursor: pointer;
+    /*Makes the background color change when button hover to be a little smoother*/
+    transition: background-color 250ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.button2 {
+    border-style: inset;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background: rgba(166, 203, 245, 0.479);
+    color:rgb(48, 109, 179);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.button1:hover {
+    background-color: rgba(157, 227, 240, 0.16);
+}
+
+/*when user hovers mouse over button, will change to this color*/
+
+.button2:hover {
+    background-color: rgb(157, 227, 240);
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/*when screen size gets to this max width, the font color will change for the navigation links*/
+@media screen and (max-width: 862px) {
+     a {
+         color: whitesmoke;
+     }
+}
