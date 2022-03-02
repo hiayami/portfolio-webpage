@@ -12,4 +12,4 @@ Process:
     
     Comments are placed on the CSS style page under areas that were new to me and reasons why those styles were needed to accomplish certain effects.
 
-![Screen_shot_of_Portfolio_Webpage](/assets/images/Screenshot Webpage.png "Portfolio Webpage")
+![Screenshot Webpage](https://user-images.githubusercontent.com/98536530/156300197-c0afbbbd-e3e4-421c-ad16-f91dca0ca176.png)
