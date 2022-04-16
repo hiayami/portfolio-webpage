@@ -49,9 +49,14 @@ header div ul li {
     margin-left: 25px;
 }
 
-a {
+nav a {
     color:rgb(25, 15, 70);
     text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    color: blue;
     font-weight: bold;
 }
 
@@ -72,6 +77,10 @@ a {
 .hw-project {
     display: flex;
     max-width: 750px;
+}
+
+.hw-card {
+    margin: 0 8px;
 }
 
 .hw-1 {
@@ -118,11 +127,15 @@ section h2 {
     height: 369px;
     /*Applied border radius to both anchor and button so that the image stays within the border*/
     border-radius: 16px;
+    margin-bottom: 8px;
+}
+
+.hw button {
+    margin-bottom: 8px;
 }
 
 .btn {
     background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/sun-and-clouds-macroworld.jpg);
-    margin-right: 36px;
 }
 .btn-2 {
     background: url(/assets/images/cryptography_stock.png);
@@ -180,7 +193,38 @@ footer {
 
 /*when screen size gets to this max width, the font color will change for the navigation links*/
 @media screen and (max-width: 862px) {
-     a {
+     nav a {
          color: whitesmoke;
      }
+}
+
+@media screen and (max-width: 500px) {
+    #About_Me > div {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .hw-project {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Card {
+        display: block;
+        margin: 40px 16px 0;
+        padding: 0;
+    }
+
+    .Card > div {
+        margin-top: 16px;
+    }
+
+    section h2 {
+        border-bottom: 5px solid;
+        border-right: none;
+        text-align: left;
+        width: 100%;
+    }
 }
