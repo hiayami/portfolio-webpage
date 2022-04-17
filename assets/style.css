@@ -116,7 +116,7 @@ section h2 {
 /*styles for the image button*/
 
 .anchor-1 {
-    background: url(/assets/images/apod\ from\ project.png);
+    background: url(images/apod\ from\ project.png);
     transition: filter 250ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
@@ -165,7 +165,7 @@ section h2 {
 }
 
 .btn-2 {
-    background: url(/assets/images/cryptography_stock.png);
+    background: url(images/cryptography_stock.png);
 }
 
 .btn .link-label {
@@ -184,7 +184,7 @@ section h2 {
 }
 
 .button2 {
-    background: url(/assets/images/Linked_In.png);
+    background: url(images/Linked_In.png);
     background-size: contain;
     height: 102px;
     min-width: 236px;
@@ -202,7 +202,7 @@ section h2 {
 }
 
 .button3 {
-    background: url(/assets/images/gitHubLogo.png);
+    background: url(images/gitHubLogo.png);
     background-size: contain;
     height: 102px;
     min-width: 185px;
