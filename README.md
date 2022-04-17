@@ -38,7 +38,7 @@
 
 ### Link to Deployed Page:
 
-    [https://hiayami.github.io/portfolio-webpage/](https://hiayami.github.io/portfolio-webpage/)
+[https://hiayami.github.io/portfolio-webpage/](https://hiayami.github.io/portfolio-webpage/)
 
 
 
