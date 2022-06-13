@@ -5,12 +5,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/pixel.css">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
     <title>Ayami's Portfolio</title>
 </head>
 
 <body>
     <!--Navigation Bar/Header at top of page-->
-    <nav>
+    <!-- <nav>
         <header>
             <h1>Ayami Higashi</h1>
 
@@ -30,6 +34,30 @@
 
         </header>
 
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-between mb-3">
+        <h4>Ayami Higashi</h4>
+        <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
+            <li class="nav-item">
+                <a href="#About_Me" class="nav-link" role="button">
+                    <span class="nav-link-inner-text">👩🏻‍⚕️ About Me</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Projects_and_Work" class="nav-link" role="button">
+                    <span class="nav-link-inner-text">📕 Projects and Work</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Contact_Me" class="nav-link" role="button">
+                    <span class="nav-link-inner-text">✉️ Contact Me</span>
+                </a>
+            </li>
+        </ul>
+        <div class="time text-center">
+            <span class="time text-uppercase">1:47 PM</span>
+        </div>
     </nav>
 
     <!--About me introduction-->
@@ -59,17 +87,13 @@
         </div>
     </section>
 
-<!--Projects and work-->
+    <!--Projects and work-->
 
     <section id="Projects_and_Work" class="Card">
         <h2>Projects and Work</h2>
         <div>
-            <a 
-                href="https://github.com/millersg47/StarParty" 
-                target="_blank" 
-                class="hw anchor-1"
-                style="border: 5px solid rgb(173 255 255);"
-            >
+            <a href="https://github.com/millersg47/StarParty" target="_blank" class="hw anchor-1"
+                style="border: 5px solid rgb(173 255 255);">
                 <div class="link-label">StarParty Project Repo</div>
             </a>
             <a href="https://millersg47.github.io/StarParty/" target="_blank">StarParty web application link</a>
@@ -125,7 +149,7 @@
         </div>
     </section>
 
-<!--footer-->
+    <!--footer-->
 
     <footer>
         Updated April 2022
