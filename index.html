@@ -27,9 +27,9 @@
 <body>
     <!--Navigation Bar/Header at top of page-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-between flex-nowrap text-nowrap border-bottom-0">
         <h4>Ayami Higashi</h4>
-        <ul class="navbar-nav navbar-nav-hover flex-row align-items-center">
+        <ul class="navbar-nav navbar-nav-hover flex-row align-items-center d-none d-md-flex">
             <li class="nav-item">
                 <a href="#About_Me" class="nav-link" role="button">
                     <span class="nav-link-inner-text">👩🏻‍⚕️ About Me</span>
@@ -50,19 +50,35 @@
             <span class="time text-uppercase">1:47 PM</span>
         </div>
     </nav>
-
+    <nav class="navbar navbar-expand-lg navbar-dark d-md-none flex-nowrap text-nowrap">
+        <ul class="navbar-nav navbar-nav-hover flex-row align-items-center o-auto">
+            <li class="nav-item">
+                <a href="#About_Me" class="nav-link" role="button">
+                    <span class="nav-link-inner-text">👩🏻‍⚕️ About Me</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Projects_and_Work" class="nav-link" role="button">
+                    <span class="nav-link-inner-text">📕 Projects and Work</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Contact_Me" class="nav-link" role="button">
+                    <span class="nav-link-inner-text">✉️ Contact Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
     <!--About me introduction-->
 
     <section id="About_Me" class="bg-secondary pt-3 mt-5">
         <div class="container">
-            <div class="row mb-3 mt-2">
-                <h2 class="text-white">About Me</h2>
-            </div>
+            <h2 class="text-white mb-3 mt-2">About Me</h2>
             <div class="row justify-content-center">
                 <div class="col-auto">
                     <img src="./assets/images/profilepic.jpeg" alt="Profile portraitd" class="pic" />
                 </div>
-                <div class="text-white col-8">
+                <div class="text-white col-sm-8">
                     <p>Welcome! </p>
                     <br>
                     <p>My name is Ayami and I am a full time, registered operating room nurse. My role as a
@@ -94,12 +110,11 @@
 
     <!--Projects and work-->
 
-    <div class="container">
-        <div class="row mt-4">
-            <h2>Projects and Work</h2>
-        </div>
-        <div class="row mt-3">
-            <div class="col-6">
+    <div id="Projects_and_Work" class="container">
+        <h2 class="mt-4">Projects and Work</h2>
+        <div class="row">
+            
+            <div class="col-md-6 mt-3">
                 <div class="card card-secondary">
                     <div class="card-header text-center">
                         <span class="icon icon-xs w95-window-empty"></span>
@@ -119,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 mt-3">
                 <div class="card card-secondary">
                     <div class="card-header text-center">
                         <span class="icon icon-xs w95-window-empty"></span>
@@ -143,8 +158,8 @@
             </div>
         </div>
 
-        <div class="row mt-3">
-            <div class="col-6">
+        <div class="row">
+            <div class="col-md-6 mt-3">
                 <div class="card card-secondary">
                     <div class="card-header text-center">
                         <span class="icon icon-xs w95-window-empty"></span>
@@ -168,7 +183,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 mt-3">
                 <div class="card card-secondary">
                     <div class="card-header text-center">
                         <span class="icon icon-xs w95-window-empty"></span>
@@ -191,9 +206,9 @@
             </div>
         </div>
         <!--Contact information-->
-        <div class="mt-4">
+        <div class="mt-4" id="Contact_Me">
             <h2>Contact Me</h2>
-            <ul class="nav nav-tabs mt-3" id="myTab" role="tablist">
+            <ul class="nav nav-tabs mt-3 o-auto flex-nowrap" id="myTab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#link" role="tab"
                         aria-controls="home" aria-selected="true">Links</a>
