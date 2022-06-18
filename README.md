@@ -30,8 +30,8 @@
 
 ### Process:
 
-This webpage uses a CSS framework from [Themesberg](https://themesberg.com/product/ui-kit/windows-95-ui-kit)    
-and uses scalable vector graphics [SVG](https://publicdomainvectors.org/) for the project cards.
+This webpage uses a CSS framework from [Themesberg](https://themesberg.com/product/ui-kit/windows-95-ui-kit). Themesburg uses Bootstrap for their CSS themes.    
+The portfolio webpage also uses some scalable vector graphics [SVG](https://publicdomainvectors.org/) for the project cards.
 Links for GitHub profile and Linkedin profile are added to the page, as well as an updated resume.
 
 ### Link to Deployed Page:
