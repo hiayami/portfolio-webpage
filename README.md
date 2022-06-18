@@ -30,16 +30,14 @@
 
 ### Process:
 
-    An HTML layout was created, followed by a CSS stylesheet to add details. Classes were created to apply certain styles to specific elements. 
-
-    This webpage uses different CSS properties such as display, flex-wrap, and box styling.
-    
-    Links for GitHub profile and Linkedin profile are added to the page, as well as an updated resume.
+This webpage uses a CSS framework from [Themesberg](https://themesberg.com/product/ui-kit/windows-95-ui-kit)    
+and uses scalable vector graphics [SVG](https://publicdomainvectors.org/) for the project cards.
+Links for GitHub profile and Linkedin profile are added to the page, as well as an updated resume.
 
 ### Link to Deployed Page:
 
 [https://hiayami.github.io/portfolio-webpage/](https://hiayami.github.io/portfolio-webpage/)
 
 
+![Screen Shot 2022-06-17 at 8 52 57 PM](https://user-images.githubusercontent.com/98536530/174421832-5bd37c5d-ff2c-4ec3-9e65-d4ec39c53be3.png)
 
-![portfolio-update](https://user-images.githubusercontent.com/98536530/163696013-f845aae7-997c-48a8-bf4e-73d411e693d1.png)
